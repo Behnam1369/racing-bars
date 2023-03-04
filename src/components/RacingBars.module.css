@@ -1,0 +1,22 @@
+.chart {
+  position: relative;
+  font-family: Helvetica;
+  width: 100%;
+}
+
+.team {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.progress {
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.085),
+    rgba(0, 0, 0, 0.401)
+  );
+}
+
+.score {
+  font-weight: bold;
+}
