@@ -1,7 +1,13 @@
+.main {
+  padding: 20px;
+}
+
 .chart {
   position: relative;
   font-family: Helvetica;
   width: 100%;
+  border: solid 1px silver;
+  background-color: whitesmoke;
 }
 
 .team {
@@ -19,4 +25,21 @@
 
 .score {
   font-weight: bold;
+}
+
+button {
+  background-color: #3740ba;
+  margin: 10px 3px;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  outline: none;
+  width: 90px;
+  height: 30px;
+  font-family: Helvetica;
+}
+
+button:hover {
+  background-color: #1922a0;
+  cursor: pointer;
 }
