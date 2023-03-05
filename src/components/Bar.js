@@ -16,16 +16,13 @@ const Bar = ({
     if (ref.current) {
       const bar = ref.current;
       const duration = 1000; // milliseconds
-      const fromTop = barHeight * rankFrom;
-      const toTop = barHeight * rankTo;
+      const fromTop = barHeight * (rankFrom - 1) + 15;
+      const toTop = barHeight * (rankTo - 1) + 15;
       const parentWidth = bar.parentElement.offsetWidth - 50;
-      console.log(parentWidth);
       const scoreWidth = (parentWidth - 330) / maxScore;
-      console.log(scoreWidth);
       bar.style.position = "absolute";
       bar.style.marginLeft = "30px";
       bar.style.top = `${fromTop}px`;
-      console.log(`${330 + scoreFrom * scoreWidth}px`);
       bar.style.width = `${330 + scoreFrom * scoreWidth}px`;
       bar.style.backgroundColor = colorFrom;
       bar.style.display = "grid";
