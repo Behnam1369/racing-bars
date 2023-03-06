@@ -1,6 +1,6 @@
 # react-racing-bars
 
-react-racing-bars is a data visualization tool that creates bar charts over timeframes. It can be used for generating animated infographs based and 3D data structure.
+react-racing-bars is a data visualization tool that creates bar charts over timeframes. It can be used for generating animated infographs based on 3D data structure.
 
 ![Screenshot](./RacingBars-Demo.gif)
 
